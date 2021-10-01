@@ -16,8 +16,8 @@ HC1:6BFOXN*TS0BI$ZD4N9:9S6RCVN5+O30K3/XIV0W23NTDEPWK G2EP4J0B3KLASMUG8GJL8LLG.3S
 Pseudo-code representation of the decoded CBOR Web Token (CWT):
 
 - Issuer: `DE`
-- Valid from: `Friday, May 7, 2021 1:09:05 PM`
-- Expires: `Saturday, May 7, 2022 1:09:05 PM`
+- Valid from: `Friday, Oktober 1, 2021 1:09:05 PM`
+- Expires: `Saturday, Oktober 1, 2022 1:09:05 PM`
 
 *(be aware that the CWT keys `1`, `4`, `6`, `-260` are actual integer keys in the CWT)*
 ```json
@@ -41,12 +41,12 @@ Pseudo-code representation of the decoded CBOR Web Token (CWT):
           "vp": "1119349007"
         }
       ],
-      "dob": "1970-01-01",
+      "dob": "1961-18-10",
       "nam": {
-        "fn": "Dießner Musterfrau",
-        "gn": "Erika Dörte",
-        "fnt": "DIESSNER<MUSTERFRAU",
-        "gnt": "ERIKA<DOERTE"
+        "fn": "Stähli Roland ",
+        "gn": "Roland Stähli",
+        "fnt": "STAEHLI<ROLAND",
+        "gnt": "ROLAND"
       },
       "ver": "1.0.0"
     }
@@ -86,10 +86,10 @@ curl \
   --header 'Content-Type: application/json' \
   --data-raw '{
       "nam": {
-        "fn": "Musterfrau",
-        "gn": "Erika"
+        "fn": "Stähli",
+        "gn": "Roland"
       },
-      "dob": "1979-04-14",
+      "dob": "1961-18-10",
       "v": [{
         "id": "IZ12345A",
         "tg": "840539006",
